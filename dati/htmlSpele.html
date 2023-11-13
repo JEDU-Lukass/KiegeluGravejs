@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+
+<!--
+Jēkabpils 3. vidusskolas
+9.a klases skolnieka
+Lūkasa Aukmaņa
+projekta darbs datorikā
+2023. gads 
+-->
+
+	<meta charset="UTF-8">
+	<title>Ķieģeļu Grāvējs</title>
+	<link rel="stylesheet" href="global.css">
+	<link rel="stylesheet" href="cssSpele.css">
+	<style>
+
+	</style>
+</head>
+<body>
+	<div class="fons" id="fons">
+		<table id="laukumaTabula">
+			<tr>
+				<td style="width:1000px;"><canvas id="pamatne" height="900px" width="1000px"></canvas></td>
+				<td style="width:100%;margin:0;padding:0;">
+					<div id="mala">
+						<table style="margin:auto;"><tr>
+							<td><img src="heartFull.png" id="dziviba1" class="dzivibas"></td>
+							<td><img src="heartFull.png" id="dziviba2" class="dzivibas"></td>
+							<td><img src="heartFull.png" id="dziviba3" class="dzivibas"></td>
+						</tr></table>
+						<h2 id="limenis" style="font-family:Consolas, monaco, monospace;"><strong>1. Līmenis</strong></h2>
+						<h3 class="dark_green" id="laiks" style="font-size: 30pt;margin:0;">0:0:0</h3>
+						<h1 style="padding:8pt;margin:0;text-align:center;padding-bottom: 0;font-size: 40pt;font-family: Minecraftia;font-weight: 100;"><u>Punkti:</u></h1>
+						<h2 id="punktuSkaits" class="green" style="font-family:Consolas,monaco,monospace;padding:0;margin:0;font-size: 70pt;font-weight:lighter;text-align:center;font-family: Minecraftia;font-weight: 100;">0</h2>
+						<p id="statuss" class="red" style="margin: 0;text-align:center;">/////////////////////////////////</p>
+						<h4 id="iznicinatoKiegeluSkaits" style="margin-top:1em; text-align: center;">Iznīcinātie Ķieģeļi: 0</h4>
+						<h4 id="pieskareTaisnsturaObjektam" style="margin-top:1em; text-align: center;">Pieskare Taisnstūra Objektam: 1</h4>
+
+						<p id="abcdef"></p>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<script src="jsSpele.js"></script>
+</body>
+</html>

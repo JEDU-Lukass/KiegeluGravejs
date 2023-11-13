@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="lv">
+	<head>
+		<meta charset="UTF-8">
+		<title>Instrukcija | Ķieģeļu grāvējs</title>
+		<link rel="stylesheet" href="global.css">
+		<style>
+			.content {
+				padding:1em;
+				padding-bottom:3em;
+			}
+			.fons {
+				height: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="fons" id="fons">
+			<div class="content">
+				<h1>Instrukcija</h1>
+				<p>Tavs mērķis ir pēc iespējas ātrāk iznīcināt visus spēles laukumā esošos ķieģeļus 3 dažādu līmeņu laikā. To ir iespējams izdarīt atvairot bumbu, izmantojot kustīgo taisnstūrveidīgo objektu. Ja bumba pieskaras sarkanajai līnijai, tu zaudē vienu no trim dzīvībām. Ja tev beidzas dzīvības, tad tu zaudē.</p>
+				<h2>Kas atrodas spēles laukumā?</h2>
+				<p><strong>Spēles laukumā atrodas:</strong></p>
+				<ul>
+					<li>iznīcināmie (zaļie, dzeltenie un sarkanie) ķieģeļi,</li>
+						<ul><li>iznīcinot šos ķieģeļus, iegūst punktus;</li></ul>
+					<li>bumba,</li>
+						<ul><li>bumba ir brīvi kustīgais, neatkarīgais objekts, kurš spēj iznīcināt ķieģeļus, kuru tev jāatvaira no sarkanās līnijas un jāvirza uz ķieģeļu pusi;</li></ul>
+					<li>taisnstūrveidīgais objekts,</li>
+						<ul><li>tu kontrolē šo objektu,</li>
+						<li>tas kustās tikai pa labi un pa kreisi,</li>
+						<li>tas spēj atvairīt bumbu;</li></ul>
+					<li>sarkanā līnija,</li>
+							<ul><li>līnija, kurai bumba nevar pieskarties, citādi tu zaudē dzīvību.</li></ul>
+				</ul>
+				<h2>Kā iegūt punktus?</h2>
+				<p>Punktus tu iegūsti bumbai iznīcinot ķieģeli, bet ne visi ķieģeļi dod vienu un to pašu punktu skaitu. Punktu aprēķins:</p>
+				<table style="border:3px solid white">
+					<tr>
+						<th><strong>Kādas krāsas ķieģelis iznīcināts?</strong></th>
+						<th><strong>Iegūtais punktu skaits</strong></th>
+					</tr><tr>
+						<td>Zaļas</td>
+						<td>1</td>
+					</tr><tr>
+						<td>Dzeltenas</td>
+						<td>2</td>
+					</tr><tr>
+						<td>Sarkanas</td>
+						<td>3</td>
+					</tr>
+				</table>
+				<h2>Kā kontrolēt taisnstūrveidīgo objektu?</h2>
+				<table>
+					<td style="width:75%"><p>Taisnstūrveidīgo objektu var kontrolēt izmantojot tastatūru – bultiņa pa kreisi to virza tikai pa kreisi, bet bultiņa pa labi to virza tikai pa labi. Tā mērķis ir atsist bumbu un neļaut tai pieskarties sarkanajai līnijai, kā arī virzīt to uz ķieģeļu pusi.</p></td>
+					<td style="width:25%;"><img src="arrows.png" height="130px" width="196px"></td>
+				</table>
+				<h2>Kas ir līmeņi?</h2>
+				<p>Spēles gaitā ir 3 līmeņi – iznīcinot visus ķieģeļus vienā līmenī, spēlētājs tiek pārvietots uz nākamo līmeni. Ar katru līmeni spēle paliek grūtāka – mainās bumbas ātrums un ķieģeļu izkārtojums.</p>
+				<h2>Kas ir dzīvības, kas notiek, kad bumba pieskaras sarkanajai līnijai?</h2>
+				<p>Tev ir 3 dzīvības. Katru reizi, kad bumba pieskaras sarkanajai līnijai, tu zaudē vienu dzīvību. Ja tev ir iztērēta tava pēdējā (trešā) dzīvība, tad tu zaudē spēli un spēle beigsies.</p>
+				<h2>Spēles beigas.</h2>
+				<p>Uzvaras gadījumā: parādās paziņojums “WINNER”, un tava spēles statistika. Sacenties ar draugiem un salīdziniet jūsu ātrumu!</p>
+				<p>Zaudēšanas gadījumā: parādās paziņojums “Game Over”, un tava spēles statistika. Tev spēle jāsāk no jauna, ja vēlies turpināt spēlēt.</p>
+			</div>
+		</div>
+	</body>
+</html>

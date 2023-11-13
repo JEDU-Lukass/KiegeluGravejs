@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+	<!--
+	Jēkabpils 3. vidusskolas
+	9.a klases skolnieka
+	Lūkasa Aukmaņa
+	projekta darbs datorikā
+	2023. gads 
+	-->
+	<meta charset="UTF-8">
+	<title>Sākums | Ķieģeļu grāvējs</title>
+	<link rel="stylesheet" href="dati/global.css">
+</head>
+<body>
+	<div class="fons" id="fons">
+		<div class="container">
+			<ul class="menu">
+				<li><input type="button" value="Sākt" class="poga" id="pogaSakt" onclick="pogaSakt()"></li>
+				<li><input type="button" value="Instrukcija" class="poga" onclick="window.open('dati/htmlInstrukcija.html')"></li>
+				<li><input type="button" value="Dokumentācija" class="poga" onclick="window.open('dati/Lūkass Aukmanis_ Ķieģeļu Grāvējs_pps.docx')"></li>
+			</ul>
+		</div>
+	</div>
+		
+	<script>
+		function pogaSakt() {
+			window.open("dati/htmlSpele.html",'_self','height=200,width=500');		
+		}
+		
+		function pogaInstrukcija() {
+			window.open("placeholder.html",'_blank','height=200,width=500');
+		}
+	</script>
+</body>
+</html>

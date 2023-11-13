@@ -1,0 +1,53 @@
+/*
+Jēkabpils 3. vidusskolas
+9.a klases skolnieka
+Lūkasa Aukmaņa
+projekta darbs datorikā
+2023. gads
+*/
+
+.dzivibas {
+	margin:0;	
+	padding-top:3vmin;
+	padding-left:2vmin;
+	padding-right:2vmin;
+	text-align:center;
+	padding-bottom: 0;
+	height:10vmin;
+	height:10vmin;
+	image-rendering:pixelated;
+	user-select: none;
+}
+
+#pamatne {
+	background-color: rgba(0,0,0,0.7);
+	border-top-left-radius: 3.5vmin;
+	border-bottom-left-radius: 3.5vmin;
+	border-right: rgb(0,255,0) dotted ;
+}
+
+#mala {
+	width: auto;
+	height:inherit;
+	width: max(100%, 404px);
+	margin:0;
+	padding:0;
+    border-top-right-radius: 4vmin;
+	border-bottom-right-radius: 4vmin;
+	display: block;
+	text-align: center;
+}
+
+#laukumaTabula {
+	width:100%;
+	height:100%;
+	border-spacing:0;
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+td {
+	padding:0;
+    border:0;
+}
