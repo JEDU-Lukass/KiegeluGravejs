@@ -13,8 +13,8 @@ projekta darbs datorikā
 	padding-right:2vmin;
 	text-align:center;
 	padding-bottom: 0;
-	height:10vmin;
-	height:10vmin;
+	height:100px;
+	width:100px;
 	image-rendering:pixelated;
 	user-select: none;
 }

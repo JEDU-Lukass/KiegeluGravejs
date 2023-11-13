@@ -1,11 +1,3 @@
-/*
-Jēkabpils 3. vidusskolas
-9.a klases skolnieka
-Lūkasa Aukmaņa
-projekta darbs datorikā
-2023. gads 
-*/
-
 // Pamatnes Izveide
 var canvas = document.getElementById("pamatne");
 var ctx = pamatne.getContext("2d");
@@ -221,7 +213,7 @@ function draw() {
 //cikls, kurš tiek atkārtots katras 10ms, nodrošina objektu (un bumbas) pārzīmēšanu
 	const drawInterval = setInterval(draw, 10);
 
-//EventListener funkcija, kas reaģē uz taustiņu nospiešanu
+// EventListener funkcija, kas reaģē uz taustiņu nospiešanu
 var down = false;
 document.addEventListener("keydown", event => {
   if (event.keyCode === 37 && paddleX > 0) { // Kreisā bultiņa un malas robeža
@@ -249,6 +241,7 @@ document.addEventListener("keyup", (event) => {
 	}
   });
 
+// Dzīvības
 function dzivibasBeidzas() {
   if(!dzivibuSkaits) {
     clearInterval(drawInterval);
@@ -348,12 +341,15 @@ function collisionDetection(brickColumnCount,bricks,iegutaisPunktuSkaits) {
         if(x > b.x && x < b.x+brickWidth && y > b.y && y < b.y+brickHeight) {
           dy = -dy;
           b.status = 0;
+          iznicinatieKiegeli += 1
+          document.getElementById("iznicinatoKiegeluSkaits").innerHTML = "Iznīcinātie Ķieģeļi: " + iznicinatieKiegeli;
           return(punktuSkaits += iegutaisPunktuSkaits);
         }
       }
     }
   }
 }
+
 var repeatLevel1 = true, repeatLevel2 = true, repeatLevel3 = true;
 function winCheck(level1punktuSkaits,level2punktuSkaits,level3punktuSkaits) {
 
