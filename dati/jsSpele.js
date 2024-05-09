@@ -3,7 +3,7 @@ var canvas = document.getElementById("pamatne");
 var ctx = pamatne.getContext("2d");
 
 // Izveidojam mainīgos ar sākotnējām vērtībām
-var defaultSpeed = 3; //solis, par cik izmainīsies nākamās bumbas koordinātas, var uztvert par ātrumu
+var defaultSpeed = 7; //solis, par cik izmainīsies nākamās bumbas koordinātas, var uztvert par ātrumu
 var dx = defaultSpeed, dy = -defaultSpeed; //sākotnējās ātruma vērtības
 var ballRadius = 10;
 var x = canvas.width / 2; //sākuma koordinātas
